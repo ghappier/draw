@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T08:22:50.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="15.9.6" etag="fKO6Ra6UTIqGvzK9hcoO" type="github"><diagram id="pYRl8vjKHbRJ7Xavpx-g">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-21T10:36:16.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="TkGJBtqO5A_VgV9-449m" version="15.9.6" type="github">
+  <diagram id="pYRl8vjKHbRJ7Xavpx-g" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lx5M7IF353iP7vNjwrQu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=#0D0D0D;" edge="1" parent="1" source="lx5M7IF353iP7vNjwrQu-1" target="lx5M7IF353iP7vNjwrQu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lx5M7IF353iP7vNjwrQu-18" value="&lt;div style=&quot;text-align: left&quot;&gt;地址重写：&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;location /images {&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; rewrite ^.+images/?(.*)$ /$1 break;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; include uwsgi_params;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proxy_pass http://images.dxoss.caih.com/;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;}&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lx5M7IF353iP7vNjwrQu-17">
+          <mxGeometry x="-0.332" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lx5M7IF353iP7vNjwrQu-1" value="nginx&lt;br&gt;域名：bmhs.caih.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="211" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lx5M7IF353iP7vNjwrQu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lx5M7IF353iP7vNjwrQu-3" target="lx5M7IF353iP7vNjwrQu-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lx5M7IF353iP7vNjwrQu-3" value="浏览器访问：http://bmhs.caih.com/images/20211221/123.jpg" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/users/browser.svg;" vertex="1" parent="1">
+          <mxGeometry x="360" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lx5M7IF353iP7vNjwrQu-5" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#ABABAB;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="179" as="sourcePoint" />
+            <mxPoint x="690" y="179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lx5M7IF353iP7vNjwrQu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0D0D0D;" edge="1" parent="1" source="lx5M7IF353iP7vNjwrQu-6" target="lx5M7IF353iP7vNjwrQu-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="663" />
+              <mxPoint x="420" y="663" />
+              <mxPoint x="420" y="548" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lx5M7IF353iP7vNjwrQu-12" value="返回：http://images/dxoss.caih.com/20211221/123.jpg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lx5M7IF353iP7vNjwrQu-11">
+          <mxGeometry x="-0.0103" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lx5M7IF353iP7vNjwrQu-6" value="东信OSS&lt;br&gt;images.dxoss.caih.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="494" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lx5M7IF353iP7vNjwrQu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0D0D0D;" edge="1" parent="1" source="lx5M7IF353iP7vNjwrQu-7" target="lx5M7IF353iP7vNjwrQu-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="272" y="470" />
+              <mxPoint x="660" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lx5M7IF353iP7vNjwrQu-9" value="上传附件：a1.jpg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lx5M7IF353iP7vNjwrQu-8">
+          <mxGeometry x="-0.2071" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lx5M7IF353iP7vNjwrQu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#0D0D0D;" edge="1" parent="1" source="lx5M7IF353iP7vNjwrQu-7" target="lx5M7IF353iP7vNjwrQu-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="548" />
+              <mxPoint x="160" y="643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lx5M7IF353iP7vNjwrQu-16" value="入库：/images/20211221/123.jpg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lx5M7IF353iP7vNjwrQu-15">
+          <mxGeometry x="-0.1877" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lx5M7IF353iP7vNjwrQu-7" value="附件服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="518" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lx5M7IF353iP7vNjwrQu-14" value="数据库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="613" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
