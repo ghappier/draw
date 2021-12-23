@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T03:11:21.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="4jHgnrI-FYlhYWrEXhHP" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-23T03:33:17.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="LFlVoFlgoLnJbW2OL_Nb" version="16.0.3" type="github">
   <diagram id="pYRl8vjKHbRJ7Xavpx-g" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
         <mxCell id="jab4PAsLs41NmtKCzUoU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lx5M7IF353iP7vNjwrQu-1" target="jab4PAsLs41NmtKCzUoU-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lx5M7IF353iP7vNjwrQu-1" value="&lt;b&gt;nginx&lt;/b&gt;&lt;br&gt;域名：bmhs.caih.com" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="lx5M7IF353iP7vNjwrQu-1" value="&lt;b&gt;nginx&lt;/b&gt;&lt;br&gt;域名：bmhs.caih.com&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;location /ossbmhs/&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="249" y="211" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lx5M7IF353iP7vNjwrQu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lx5M7IF353iP7vNjwrQu-3" target="lx5M7IF353iP7vNjwrQu-1" edge="1">
